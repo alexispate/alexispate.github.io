@@ -1,9 +1,8 @@
 .experience__container
 {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 4rem;
-    padding: 0 25%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
 }
 
 
@@ -15,7 +14,6 @@
     border: 1px solid transparent;
     text-align: center;
     transition: var(--transition);
-    
 }
 
 .experience__item:hover
@@ -53,6 +51,7 @@
 .experience__item-cta
 {
     display: flex;
+    justify-content: center;
     margin:0 auto;
     gap: 1rem;
 }

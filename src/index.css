@@ -13,12 +13,12 @@
 
 /*These are root variables that we can use anywhere in the project*/
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-bg: #b74854;
+  --color-bg-variant: #a1585f;
+  --color-primary: #c8737c;
   --color-primary-variant: rgba(77, 181, 255, .4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, .6);
+  --color-light: rgb(255, 255, 255);
 
   --transition: all 400ms ease;
 
@@ -76,7 +76,7 @@ section > h2, section > h5
 
 section > h2
 {
-  color: var(--color-primary);
+  color: var(--color-light);
   margin-bottom: 3rem;
 }
 
@@ -87,7 +87,7 @@ section > h2
 
 a
 {
-  color:var(--color-primary);
+  color:var(---color-light);
   transition: var(--transition);
 }
 

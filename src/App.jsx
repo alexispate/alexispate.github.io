@@ -10,7 +10,7 @@ import Contact from './components/contact/Contact'
 function App() {
   return (
     <>
-   <Header/>
+    <Header/>
     <Nav/>
     <About/>
     <Skills/>

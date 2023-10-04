@@ -49,13 +49,13 @@ header
 {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 35rem;
+    height: 30rem;
     position: absolute;
     left:calc(50% - 11rem);
     margin-top: 1rem;
     border-radius: 16rem 16rem 0 0;
     overflow: hidden;
-    padding: 1rem 0 0 0;
+    padding: 0 0 0 0;
 }
 
 /*===================Scroll Down===================*/
