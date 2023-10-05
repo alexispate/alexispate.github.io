@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.867ae158.css",
-    "main.js": "/static/js/main.c5ac15e0.js",
+    "main.css": "/static/css/main.1c297dc9.css",
+    "main.js": "/static/js/main.9f227522.js",
     "static/js/787.c2b8da98.chunk.js": "/static/js/787.c2b8da98.chunk.js",
     "static/media/IMG_0673.jpg": "/static/media/IMG_0673.d63dfcd9972cdda99690.jpg",
     "static/media/IMG_0670.jpg": "/static/media/IMG_0670.1a474ed9299692fc3862.jpg",
+    "static/media/Dogs.jpg": "/static/media/Dogs.7fb4823d9c65fba53c3c.jpg",
+    "static/media/photo6.jpeg": "/static/media/photo6.136f99a2bd4541a83cb6.jpeg",
+    "static/media/photo5.jpeg": "/static/media/photo5.3675519a46b47f284747.jpeg",
+    "static/media/photo3.jpeg": "/static/media/photo3.eb9dd932ec42a1b36a8f.jpeg",
+    "static/media/photo1.jpeg": "/static/media/photo1.21e831aaecce41da1cb1.jpeg",
+    "static/media/photo9.jpeg": "/static/media/photo9.b5c6467f0821a14fb5e1.jpeg",
+    "static/media/photo2.jpeg": "/static/media/photo2.755bd9447cb6633889dd.jpeg",
+    "static/media/photo4.jpeg": "/static/media/photo4.4e3769e74bedc56ef9fd.jpeg",
+    "static/media/photo7.jpeg": "/static/media/photo7.178039def96d0490c743.jpeg",
+    "static/media/photo8.jpeg": "/static/media/photo8.a817e65190acfb4d7042.jpeg",
     "static/media/make-a-wish-foundation-utah.jpg": "/static/media/make-a-wish-foundation-utah.46da07a5ca455723d328.jpg",
     "static/media/berkshire.webp": "/static/media/berkshire.5cac3d078623fcf7a410.webp",
     "static/media/oneheart.png": "/static/media/oneheart.942fcf8940b1e93f1e9f.png",
     "index.html": "/index.html",
-    "main.867ae158.css.map": "/static/css/main.867ae158.css.map",
-    "main.c5ac15e0.js.map": "/static/js/main.c5ac15e0.js.map",
+    "main.1c297dc9.css.map": "/static/css/main.1c297dc9.css.map",
+    "main.9f227522.js.map": "/static/js/main.9f227522.js.map",
     "787.c2b8da98.chunk.js.map": "/static/js/787.c2b8da98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.867ae158.css",
-    "static/js/main.c5ac15e0.js"
+    "static/css/main.1c297dc9.css",
+    "static/js/main.9f227522.js"
   ]
 }
