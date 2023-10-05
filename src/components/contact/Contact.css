@@ -43,27 +43,18 @@
 .contact__me
 {
     width: 60%;
-    aspect-ratio: .75/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
     margin:  0 auto 4rem auto;
-    
 }
 
 .contact__me-image
 {
     border-radius: 2rem;
     overflow: hidden;
-    opacity: 0%;
-    transition: var(--transition);
 }
 
-.contact__me-image:hover
-{
-    opacity: 100%;
-}
 
 /*===============Media Queries (Medium Devices) ===================*/
 @media screen and (max-width:1024px) 

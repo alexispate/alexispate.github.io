@@ -2,8 +2,9 @@ import React from 'react'
 import './Contact.css'
 import {MdMail} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
-
 import {AiFillPhone} from 'react-icons/ai'
+import Dogs from '../../assests/Dogs.jpg'
+
 
 const Contact = () => {
   return (
@@ -13,6 +14,7 @@ const Contact = () => {
 
       <div className='contact__container'>
         <div className='contact__me'>
+          <img className= 'contact__me-image' src={Dogs}/>
         </div>
 
         <div className="contact__options">

@@ -21,13 +21,7 @@ const About = () => {
               <article className='about__card'>
                 <FaBuilding className='about__icon'/>
                 <h5>Working Experience</h5>
-                <small>1 Year Working in Industry</small>
-              </article>
-
-              <article className='about__card'>
-                <GiFullFolder className='about__icon'/>
-                <h5>Projects</h5>
-                <small>3 Completed Projects</small>
+                <small>1+ Year Working in Industry</small>
               </article>
 
             </div>
@@ -37,7 +31,7 @@ const About = () => {
               My professional journey has been diverse, covering various domains including advertising, social media, email marketing, and more. In each role, I've dedicated myself to delivering results and ensuring the success of every project I undertake.
               I have a deep passion for learning from others and believe in the power of collaboration to achieve the best outcomes.
               In terms of my educational background, I pursued a major in Strategic Communications with minors in Sociology and Human Development & Family Studies, 
-              which has provided me with a solid foundation in Marketing, communications, leadership, content creation, and more.
+              which has provided me with a solid foundation in marketing, communications, leadership, content creation, and more.
             </p>
             <a href='#contact' className='btn btn-primary'>Get in Contact With Me</a>
           </div>

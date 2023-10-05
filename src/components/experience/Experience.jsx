@@ -109,6 +109,7 @@ const Experience = () => {
             <div className='experience__item-image'>
               <img src={Berkshire} alt="MakeAWish" ></img>
             </div>
+            <br/>
             <h1>
               Marketing Consultant Intern - The Pate Team REALTORS
             </h1>

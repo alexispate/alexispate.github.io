@@ -1,42 +1,84 @@
 import React from 'react'
 import './Portfolio.css'
+import Photo1 from '../../assests/photo1.jpeg'
+import Photo2 from '../../assests/photo2.jpeg'
+import Photo3 from '../../assests/photo3.jpeg'
+import Photo4 from '../../assests/photo4.jpeg'
+import Photo5 from '../../assests/photo5.jpeg'
+import Photo6 from '../../assests/photo6.jpeg'
+import Photo7 from '../../assests/photo7.jpeg'
+import Photo8 from '../../assests/photo8.jpeg'
+import Photo9 from '../../assests/photo9.jpeg'
+
+
+
 
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
-      <div className='portfolio__container'>
-        <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-            </div>
-            <h3>This is my TankWars game, and it was made with a partner. We created a server and client to run this game using MVC architecture. 
-              The server allowed for multiple clients to connect and interact with eachother. The game consisted of multiple tanks and an environment more complicated than the one above.
-              The tanks were able to move around and fire projectiles at one another causing damage to the tank that was hit. This project was written in C# using Visual Studio.</h3>
-            <div className='portfolio__item-cta'>
-              <a href='https://github.com/JustinPerez12/TankWars' className='portfolio__item-cta btn' target='_blank' rel="noreferrer">Tank Wars Github</a>
-            </div>
+      <h2>Social Media</h2>
+      <p className='social__media'>
+        My social media experience has been a dynamic journey through the ever-evolving landscape of digital communication. 
+        I have honed my skills in crafting engaging content, managing multiple platforms, and implementing effective strategies to grow an online presence and engagement. 
+        I have successfully navigated the intricacies of various social media platforms, leveraging their unique features to reach and connect with diverse audiences. 
+        My ability to analyze data, track metrics, and adapt strategies based on insights has been instrumental in achieving tangible results such as: increased followers, improved brand visibility, and higher user engagement. 
+        With a keen eye for trends and a commitment to staying updated with the latest industry developments, I am well-equipped to drive social media success for any project or organization.
+      </p>
+      <div className='portfolio__container'> 
+      <article className='portfolio__item'>
+          <div className='portofolio__image-image'>
+            <img src={Photo1}/>
+          </div>
+
         </article>
 
         <article className='portfolio__item'>
-            <div className='portfolio__item-image '>
-            </div>
-            <h3>This project was a mock google spreadsheets project. For this project we created a server and client similar to the Tank Wars game, but this was written in C.
-              Similar to the TankWars server, we allowed multiple clients to connect and interact with eachother. Clients could see other clients: positions, edits, deletes, and more
-              all in real time. This was all written and designed by hand, produced in a team of 6.
-            </h3>
+          <div className='portofolio__image-image'>
+            <img src={Photo2} />
+          </div>
+
         </article>
 
         <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-            </div>
-            <h3>This is a LifeStyle App that was created in Android Studio using Java. The app created has multiple features in it related to keeping a healthy lifestyle.
-              It offers BMI calculator as well as a BMR calculator. It also calculates the number of calories you should intake depending on whether you want to lose, gain, or maintain your current weight.
-              The LifeStyle App also has support for showing you nearby hikes in your area, as well as displaying the current weather for your area.
-            </h3>
-            <div className='portfolio__item-cta'>
-              <a href='https://github.com/dtdetwiller/lifestyle' className='portfolio__item-cta btn' target='_blank' rel="noreferrer">LifeStyle App Github</a>
-            </div>
+          <div className='portofolio__image-image'>
+            <img src={Photo3} />
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className='portofolio__image-image'>
+            <img src={Photo4} />
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className='portofolio__image-image'>
+           <img src={Photo5} />
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className='portofolio__image-image'>
+           <img src={Photo6} />
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className='portofolio__image-image'>
+            <img src={Photo7} />
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className='portofolio__image-image'>
+            <img src={Photo8} />
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className='portofolio__image-image'>
+            <img src={Photo9} />
+          </div>
         </article>
         
       </div>
